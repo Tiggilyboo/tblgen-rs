@@ -10,7 +10,7 @@
 
 use std::marker::PhantomData;
 
-use crate::error::{SourceLocation, TableGenError, WithLocation};
+use crate::error::TableGenError;
 use crate::raw::{
     tableGenRecordKeeperFree, tableGenRecordKeeperGetAllDerivedDefinitions,
     tableGenRecordKeeperGetClass, tableGenRecordKeeperGetDef, tableGenRecordKeeperGetFirstClass,
